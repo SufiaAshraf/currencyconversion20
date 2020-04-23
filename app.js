@@ -4,8 +4,6 @@ var express = require('express'),
 
 app.set("view engine" , "ejs");
 app.use(express.json());
-
-mongoose.connect("mongodb://localhost:27017/USDtoINR", {useNewUrlParser: true, useUnifiedTopology: true , useFindAndModify: false});
 // Setting Local Host
     const http = require('http');
     const hostname = '127.0.0.1';
