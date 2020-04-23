@@ -4,6 +4,7 @@ var express = require('express'),
 
 app.set("view engine" , "ejs");
 app.use(express.json());
+
 // Setting Local Host
     const http = require('http');
     const hostname = '127.0.0.1';
