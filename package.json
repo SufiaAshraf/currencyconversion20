@@ -5,8 +5,6 @@
   "main": "app.js",
   "dependencies": {
     "ajax": "0.0.4",
-    "alert-node": "^3.0.11",
-    "child_process": "^1.0.2",
     "currencies-exchange-rates": "^1.0.2",
     "currency-restapi-currencylayer": "^1.0.0",
     "ejs": "^3.0.2",
@@ -14,10 +12,7 @@
     "hbs": "^4.1.1",
     "https": "^1.0.0",
     "jquery": "^3.5.0",
-    "mongoose": "^5.9.9",
-    "nodejs-currency-converter": "^1.0.2",
-    "puppeteer": "^3.0.0",
-    "util": "^0.12.2"
+    "nodejs-currency-converter": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {

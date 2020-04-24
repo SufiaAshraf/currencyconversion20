@@ -69,7 +69,6 @@
             xmlhttp.onreadystatechange = function(){
                 if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
                     var result = xmlhttp.responseText;
-                    // alert(result);
                     var jsReult = JSON.parse(result);
                     var oneUnit = jsReult.rates[to]/jsReult.rates[from];
                     var amt = document.getElementById("fromAmount").value;

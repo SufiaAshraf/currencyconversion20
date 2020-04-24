@@ -1,6 +1,5 @@
 var express = require('express'),
-    app = express(),
-    mongoose   = require("mongoose");
+    app = express();
 
 app.set("view engine" , "ejs");
 app.use(express.json());
