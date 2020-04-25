@@ -1,4 +1,4 @@
-# currencyconversion20
+# Currencyconversion
 Currency Converter is a web app to convert foriegn currencies to native currencies at present rates.
 
 ## Demo
