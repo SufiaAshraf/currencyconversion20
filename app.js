@@ -5,8 +5,8 @@ app.set("view engine" , "ejs");
 app.use(express.json());
 
 // Setting Local Host
-    const hostname = '0.0.0.0';
-    const port = 3000;
+    // const hostname = '0.0.0.0';
+    // const port = 3000;
 
 // Landing page
 app.get("/", function(req, res){
@@ -14,7 +14,7 @@ app.get("/", function(req, res){
 });
 
 // Port
-app.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`)
+app.listen(process.env.port || 3000, () => {
+    console.log(`Server running`)
 });
       
