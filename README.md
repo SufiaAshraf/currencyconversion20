@@ -12,9 +12,8 @@ Currency Converter is a web app to convert foriegn currencies to native currenci
 * [IXMLHTTPRequest](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms759148(v%3Dvs.85)) - Provides client-side protocol support for communication with HTTP servers. 
 
 # Demo Image
-![]
-()
-
+This is the screenshot of demo
+![](https://github.com/SufiaAshraf/currencyconversion20/blob/master/Screenshot_20200426-025507.png)
 
 
 # Development
