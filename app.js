@@ -5,7 +5,7 @@ app.set("view engine" , "ejs");
 app.use(express.json());
 
 // Setting Local Host
-    const hostname = '127.0.0.1';
+    const hostname = '0.0.0.0';
     const port = 3000;
 
 // Landing page
