@@ -3,7 +3,7 @@ var express = require('express'),
 
 app.set("view engine" , "ejs");
 app.use(express.json());
-
+app.use(express.static("views"))
 // Setting Local Host
     // const hostname = '0.0.0.0';
     // const port = 3000;
@@ -14,7 +14,6 @@ app.get("/", function(req, res){
 });
 
 // Port
-app.listen(process.env.port || 3000, () => {
-    console.log(`Server running`)
-});
+app.listen(process.env.port || 3000,
+    () => console.log(`Server running`));
       
