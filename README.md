@@ -3,7 +3,7 @@ Currency Converter is a web app to convert foriegn currencies to native currenci
 
 ## Demo
 
-[demo](https://currencyconversion20.herokuapp.com)
+[demo](currencyconversion20.herokuapp.com)
 
 
 # Built-with
