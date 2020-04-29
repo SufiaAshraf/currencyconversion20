@@ -61,7 +61,7 @@
             var from = document.getElementById("from").value;
             var to   = document.getElementById("to").value;
             var xmlhttp = new XMLHttpRequest();
-            var url   = "http://data.fixer.io/api/latest?access_key=5d1b4b8af186c1ef51eb5de34c1305a8" + "&" + "base =" + from + "& symbols =" +to;
+            var url   = "http://data.fixer.io/api/latest?access_key=<YOUR ACCESS KEY>" + "&" + "base =" + from + "& symbols =" +to;
             xmlhttp.open("GET", url, true);
             xmlhttp.send();
             xmlhttp.onreadystatechange = function(){
